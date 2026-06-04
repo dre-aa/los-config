@@ -1,0 +1,18 @@
+mercadopago:
+  success-url: http://localhost:8080/pago/success
+  failure-url: http://localhost:8080/pago/failure
+  pending-url: http://localhost:8080/pago/pending
+
+db:
+  url: jdbc:postgresql://localhost:5433/proyecto
+  username: serviceProyecto
+  password: admin123
+  maximum-pool-size: 5
+  connection-timeout: 20000
+
+  #mercadopago:
+  #access-token: TEST-tu-token-real-de-mercado-pago
+  #success-url: http://localhost:4200/pago/success
+  #failure-url: http://localhost:4200/pago/failure
+  #pending-url: http://localhost:4200/pago/pending
+  
